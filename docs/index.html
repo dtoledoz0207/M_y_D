@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>❤️ My Love ❤️</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color:#cc3333d0;
+    }
+    .navbar {
+      justify-content: center !important;
+      background-color:#d35151 !important;
+    }
+    .navbar-brand {
+      font-family: 'Dancing Script', cursive !important;
+      font-size: 2.5rem !important;
+      color: #fff !important;
+    }
+    .container-message {
+      position: relative;
+      top: 20px;
+      z-index: 1;
+      font-size: 3em;
+      text-align: center;
+      width: 100%;
+      background-color:transparent;
+    }
+    .message {
+      font-family: 'Dancing Script', cursive;
+      font-family: 'Caveat', cursive;
+      font-size: 1.7rem !important;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      color: #fff;
+    }
+    section {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: url(./images/foto1.jpg);
+      background-attachment: fixed;
+      clip-path: circle(0px at center);
+    }
+    .container-album {
+      position: relative;
+      width: 100%;
+      margin-top: 200vh;
+    }
+    .container-album .section {
+      position: sticky;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      background: #000;
+    }
+    .container-album .section:nth-child(1) {
+      background: url(./images/foto2.jpg);
+      background-size: cover;
+    }
+    .container-album .section:nth-child(2) {
+      background: url(./images/foto3.jpg);
+      background-size: cover;
+    }
+    .container-album .section:nth-child(3) {
+      background: url(./images/foto4.jpg);
+      background-size: cover;
+    }
+    .container-album .section:nth-child(4) {
+      background: url(./images/foto5.jpg);
+      background-size: cover;
+    }
+    .container-album .section:nth-child(5) {
+      background: url(./images/foto6.jpg);
+      background-size: cover;
+    }
+
+
+    .container-heart {
+      padding: 100px 0;
+      background-color:#cc3333;
+      position: relative;
+    }
+
+    #heart {
+      position: relative;
+      width: 100px;
+      height: 90px;
+      animation: heartbeat 1s infinite;
+      margin:0 auto;
+    }
+    #heart:before,
+    #heart:after {
+        position: absolute;
+        content: "";
+        left: 50px;
+        top: 0;
+        width: 50px;
+        height: 80px;
+        background: #fff;
+        -moz-border-radius: 50px 50px 0 0;
+        border-radius: 50px 50px 0 0;
+        -webkit-transform: rotate(-45deg);
+          -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+                transform: rotate(-45deg);
+        -webkit-transform-origin: 0 100%;
+          -moz-transform-origin: 0 100%;
+            -ms-transform-origin: 0 100%;
+            -o-transform-origin: 0 100%;
+                transform-origin: 0 100%;
+    }
+    #heart:after {
+        left: 0;
+        -webkit-transform: rotate(45deg);
+          -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+                transform: rotate(45deg);
+        -webkit-transform-origin: 100% 100%;
+          -moz-transform-origin: 100% 100%;
+            -ms-transform-origin: 100% 100%;
+            -o-transform-origin: 100% 100%;
+                transform-origin :100% 100%;
+    }
+
+    @keyframes heartbeat
+    {
+      0%
+      {
+        transform: scale( 1.35 );
+      }
+      20%
+      {
+        transform: scale( 1.60 );
+      }
+      40%
+      {
+        transform: scale( 1.35 );
+      }
+      60%
+      {
+        transform: scale( 1.60 );
+      }
+      80%
+      {
+        transform: scale( 1.35 );
+      }
+      100%
+      {
+        transform: scale( 1.35 );
+      }
+    }
+
+    .container-final {
+      position: relative;
+      background-color:#cc3333;
+      font-family: 'Dancing Script', cursive !important;
+      height: 150px;
+      text-align: center;
+    }
+    .container-final h1 {
+      font-size: 6rem;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">❤️ Para mi amor hermosa ❤️</a>
+  </nav>
+
+  <div class="container-fluid container-message">
+    <div class="d-flex justify-content-center">
+      <div class="col-12 col-md-6 message">
+        <span>Hola mi amor, gracias por este año a tu lado. 
+          Eres lo mas hermoso en mi vida y siempre me la paso muy bien contigo porque siempre nos estamos riendo de algo y sino yo te hago reír con mis cosas ☺️.
+          Gracias por todos los momentos a tu lado, cuando estoy contigo todo es muy bonito amor, todos los días que voy a verte, solo quiero que pase el tiempo rápido para poder ir a tu casita y darte muchos abrazos y besitos 😘, pero no quiero que pase el tiempo tan rápido cuando estoy contigo ☹️ porque siempre quiero quedarme un ratito mas abrazándote ❤️.
+          Ya quiero seguir visitando mas lugares juntos mi amor, ir a la playita, a las cabañas, a acampar, al calorcito o al frillito, a donde sea, pero contigo ❤️, espero poder tener un carrito pronto para poder irnos a mas lugares juntos mi amor.
+          <br><br>
+          ¡Me encantas demasiado mi shinita hermosa, eres el amor de mi vida, contigo quiero estar siempre!
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <section></section>
+
+  <div class="container-album">
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+    <div class="section"></div>
+  </div>
+  
+  <div>
+    <div class="container-heart">
+      <div id="heart"></div>
+    </div>
+  </div>
+
+
+  <div class="container-final">
+    <h1>I love you</h1>
+  </div>
+
+
+  <script type="text/javascript">
+    var section = document.querySelector('section');
+    window.addEventListener('scroll', function() {
+      var value = window.scrollY;
+      section.style.clipPath = "circle("+ value +"px at center)";
+    });
+  </script>
+</body>
+</html>
